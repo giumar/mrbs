@@ -28,7 +28,7 @@ jobs:
           name: Get Codecept
           command: wget https://codeception.com/codecept.phar
       - run: 
-          command: php codecept.phar run
+          command: php codecept.phar run --coverage --coverage-xml
       - run:
           name: Upload test results to Codecov
           command: bash <(curl -s https://codecov.io/bash)
