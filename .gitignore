@@ -1,0 +1,9 @@
+# Folders
+#
+/nbproject/
+/tests/
+/docs/
+/project/
+
+# Files
+config.inc.php
