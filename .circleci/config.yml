@@ -26,7 +26,7 @@ jobs:
       # Download and cache dependencies
       - run:
           name: Start phpWebserver
-          command: php -S 127.0.0.1:8000 -t web >/dev/null 2>&1 &
+          command: php -S 127.0.0.1:8000 -t ./ >/dev/null 2>&1 &
       - run:
           name: Get Codecept
           command: wget https://codeception.com/codecept.phar
