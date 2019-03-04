@@ -1,5 +1,7 @@
 coverage:
     enabled: true
+    local: true
+    remote: true
 paths:
     tests: tests
     output: tests/_output
