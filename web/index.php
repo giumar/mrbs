@@ -1,6 +1,9 @@
 <?php
 namespace MRBS;
 
+include '/../c3.php';
+
+define('MY_APP_STARTED', true);
 use MRBS\Form\Form;
 use MRBS\Form\ElementInputSubmit;
 use MRBS\Form\ElementSelect;
